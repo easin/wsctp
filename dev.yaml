@@ -1,0 +1,40 @@
+account:
+  FrontAddr: "tcp://59.36.3.115:27226"
+  FrontMdAddr: "tcp://59.36.3.115:27236"
+  BrokerID: "8080"
+  UserID: "21013"
+  Password: "zwy123321"
+  InvestorID: "21013"
+  UserProductInfo: "test"
+  AuthCode: "0000000000000000"
+  AppID: "client_fo_1.0.0"
+  InstrumentID: "sr2505"
+  ExchangeID: "CZCE"
+  bIsUsingUdp: 1
+  bIsMulticast: 0
+sys:
+  #redis信息
+  REDIS_HOST: "192.168.1.214"
+  REDIS_DB: 11
+  REDIS_PORT: 8379
+  REDIS_POOL_SIZE: 3
+  REDIS_RECONNECT_TIMES: 16
+  REDIS_INTERVAL_SECONDES: 10
+  #websocket 端口
+  WEBSOCKET_PORT: 5001
+  #ws心跳秒数
+  HEART_INTERVAL: 3
+  #日志级别，参见
+  #define SPDLOG_LEVEL_TRACE 0
+  #define SPDLOG_LEVEL_DEBUG 1
+  #define SPDLOG_LEVEL_INFO 2
+  #define SPDLOG_LEVEL_WARN 3
+  #define SPDLOG_LEVEL_ERROR 4
+  #define SPDLOG_LEVEL_CRITICAL 5
+  #define SPDLOG_LEVEL_OFF 6
+  LOG_LEVEL: 1
+
+
+strategy:
+  
+      

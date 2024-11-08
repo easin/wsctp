@@ -1,0 +1,36 @@
+account:
+  FrontAddr: "tcp://180.168.146.187:10201"
+  FrontMdAddr: "tcp://180.168.146.187:10211"
+  BrokerID: "9999"
+  UserID: "231847"
+  Password: "你的密码"
+  InvestorID: "231847"
+  UserProductInfo: "test"
+  #AuthCode: "授权码换成你自己的" 
+  AuthCode: 0000000000000000
+  AppID: "simnow_client_test"
+  InstrumentID: "sr2505"
+  ExchangeID: "SHFE"
+  bIsUsingUdp: 1
+  bIsMulticast: 0
+sys:
+  #redis信息
+  REDIS_HOST: "192.168.1.214"
+  REDIS_DB: 11
+  REDIS_PORT: 8379
+  REDIS_POOL_SIZE: 3
+  REDIS_RECONNECT_TIMES: 16
+  REDIS_INTERVAL_SECONDES: 10
+  #websocket 端口
+  WEBSOCKET_PORT: 5001
+  #日志级别，参见
+  #define SPDLOG_LEVEL_TRACE 0
+  #define SPDLOG_LEVEL_DEBUG 1
+  #define SPDLOG_LEVEL_INFO 2
+  #define SPDLOG_LEVEL_WARN 3
+  #define SPDLOG_LEVEL_ERROR 4
+  #define SPDLOG_LEVEL_CRITICAL 5
+  #define SPDLOG_LEVEL_OFF 6
+  LOG_LEVEL: 1
+strategy:
+      
