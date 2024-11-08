@@ -31,7 +31,6 @@ fmt:x64-windows                                   11.0.2#1
 cpp-redis:x64-windows                             4.3.1#5
 ```
 
->https://www.shinnytech.com/blog/ctp-insert-order-field/ 下单参考字段
 
 
 
